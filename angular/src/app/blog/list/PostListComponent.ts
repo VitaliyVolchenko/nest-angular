@@ -12,7 +12,7 @@ export class PostListComponent implements OnInit {
   public postList: Observable<PostListItem[]>;
 
   constructor(private postService: PostService) { }
-
+ 
   ngOnInit() { 
     this.postList = this.postService.getAllPostItems();
   }
