@@ -7,13 +7,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
-let AppService = class AppService {
-    getHello() {
-        return 'Hello World!';
+const rxjs_1 = require("rxjs");
+const MockedPosts_1 = require("../mocks/MockedPosts");
+let PostService = class PostService {
+    findAll() {
+        return rxjs_1.of(MockedPosts_1.MockedPosts);
     }
 };
-AppService = __decorate([
+PostService = __decorate([
     common_1.Injectable()
-], AppService);
-exports.AppService = AppService;
-//# sourceMappingURL=app.service.js.map
+], PostService);
+exports.PostService = PostService;
+//# sourceMappingURL=PostService.js.map

@@ -10,24 +10,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
-const app_service_1 = require("./app.service");
-let AppController = class AppController {
-    constructor(appService) {
-        this.appService = appService;
+const rxjs_1 = require("rxjs");
+const PostService_1 = require("./services/PostService");
+let PostController = class PostController {
+    constructor(postService) {
+        this.postService = postService;
     }
-    getHello() {
-        return this.appService.getHello();
+    findAll() {
+        return this.postService.findAll();
     }
 };
 __decorate([
     common_1.Get(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
-    __metadata("design:returntype", String)
-], AppController.prototype, "getHello", null);
-AppController = __decorate([
-    common_1.Controller(),
-    __metadata("design:paramtypes", [app_service_1.AppService])
-], AppController);
-exports.AppController = AppController;
-//# sourceMappingURL=app.controller.js.map
+    __metadata("design:returntype", rxjs_1.Observable)
+], PostController.prototype, "findAll", null);
+PostController = __decorate([
+    common_1.Controller('posts'),
+    __metadata("design:paramtypes", [PostService_1.PostService])
+], PostController);
+exports.PostController = PostController;
+//# sourceMappingURL=PostController.js.map

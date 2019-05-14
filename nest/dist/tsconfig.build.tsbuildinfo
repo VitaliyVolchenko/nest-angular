@@ -1061,16 +1061,28 @@
         "version": "4b7eaf807d1e25d7488cd6b524e192284cfa7e70e759e09cdc00eaed2e4475dc",
         "signature": "4b7eaf807d1e25d7488cd6b524e192284cfa7e70e759e09cdc00eaed2e4475dc"
       },
-      "/home/dev/www/nest-angular/nest/src/app.service.ts": {
-        "version": "eaf8514ce110fa428a93a27408df4d06d133dbd9ed0a775c315ddfdd507853a9",
-        "signature": "653711fba8904aa27fd8911b63cf526e7b334e13a292da4cefdbbe179ac3f3f2"
+      "/home/dev/www/nest-angular/nest/src/blog/models/PostModel.ts": {
+        "version": "44e1cf2c31f9b2d8a33014dcd66ca55c520179189b8b7756d90061a86be01da0",
+        "signature": "afbc574f41a3f8009b12b11a14114db5aba76ddad771e6fabad59629976bea6a"
       },
-      "/home/dev/www/nest-angular/nest/src/app.controller.ts": {
-        "version": "260f889b9e2b69f77be1155348eb345166aec664b3efff6720053c6844a41f28",
-        "signature": "ef022c91ea9e75ab4082f2e881f9c4db7b346be2da706e876b253bebce5e6140"
+      "/home/dev/www/nest-angular/nest/src/blog/mocks/MockedPosts.ts": {
+        "version": "d7acdfb6e4c903ee548a0f03a758caccc8d414e18e79659647496548538e7dfb",
+        "signature": "87152b449429959837655a8e43164e3b4807d0ddfd0f321fbe34ee0ab0abb9fe"
+      },
+      "/home/dev/www/nest-angular/nest/src/blog/services/PostService.ts": {
+        "version": "52b2145aadb9bc2f4646761dfb334503d648aab4e1d83d31519b5ecbb9f30a78",
+        "signature": "9642d45fd4c7066f620fecf62239154d0d08291a5b050d9f744ffed50fbbaf1c"
+      },
+      "/home/dev/www/nest-angular/nest/src/blog/PostController.ts": {
+        "version": "a9a6bafb30cb9bebcefc7087b73f4271bcd20caa2b0b9b8fcbdb31fdab39f3f8",
+        "signature": "9e373efd16bda069ec54e583e948c33304ee6d8ffd888bcfb314fdaac9dba53e"
+      },
+      "/home/dev/www/nest-angular/nest/src/blog/BlogModule.ts": {
+        "version": "27c34aedb1c088ca5b2eda07583ac5923d119213efa3aab5fd6129056cfb91c3",
+        "signature": "6fa658249410791406531ffae8fd703a370b64eec0a5f5919722951046812861"
       },
       "/home/dev/www/nest-angular/nest/src/app.module.ts": {
-        "version": "319f8e45e370ba3d33f0887e3046096714959d3764fc68b444885cfdb9c101dd",
+        "version": "d296d1671d86a25afe69e0d39c324df6c1e0d7642afd029bfb40aaae7e522652",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
       },
       "/home/dev/www/nest-angular/nest/node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
@@ -2822,21 +2834,41 @@
         "/home/dev/www/nest-angular/nest/node_modules/@types/node/util.d.ts",
         "/home/dev/www/nest-angular/nest/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/dev/www/nest-angular/nest/src/app.service.ts": [
-        "/home/dev/www/nest-angular/nest/node_modules/@nestjs/common/index.d.ts",
+      "/home/dev/www/nest-angular/nest/src/blog/models/PostModel.ts": [
         "/home/dev/www/nest-angular/nest/node_modules/@types/node/util.d.ts",
         "/home/dev/www/nest-angular/nest/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/dev/www/nest-angular/nest/src/app.controller.ts": [
+      "/home/dev/www/nest-angular/nest/src/blog/mocks/MockedPosts.ts": [
+        "/home/dev/www/nest-angular/nest/src/blog/models/PostModel.ts",
+        "/home/dev/www/nest-angular/nest/node_modules/@types/node/util.d.ts",
+        "/home/dev/www/nest-angular/nest/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/dev/www/nest-angular/nest/src/blog/services/PostService.ts": [
         "/home/dev/www/nest-angular/nest/node_modules/@nestjs/common/index.d.ts",
-        "/home/dev/www/nest-angular/nest/src/app.service.ts",
+        "/home/dev/www/nest-angular/nest/src/blog/models/PostModel.ts",
+        "/home/dev/www/nest-angular/nest/node_modules/rxjs/index.d.ts",
+        "/home/dev/www/nest-angular/nest/src/blog/mocks/MockedPosts.ts",
+        "/home/dev/www/nest-angular/nest/node_modules/@types/node/util.d.ts",
+        "/home/dev/www/nest-angular/nest/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/dev/www/nest-angular/nest/src/blog/PostController.ts": [
+        "/home/dev/www/nest-angular/nest/node_modules/@nestjs/common/index.d.ts",
+        "/home/dev/www/nest-angular/nest/node_modules/rxjs/index.d.ts",
+        "/home/dev/www/nest-angular/nest/src/blog/models/PostModel.ts",
+        "/home/dev/www/nest-angular/nest/src/blog/services/PostService.ts",
+        "/home/dev/www/nest-angular/nest/node_modules/@types/node/util.d.ts",
+        "/home/dev/www/nest-angular/nest/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/dev/www/nest-angular/nest/src/blog/BlogModule.ts": [
+        "/home/dev/www/nest-angular/nest/node_modules/@nestjs/common/index.d.ts",
+        "/home/dev/www/nest-angular/nest/src/blog/services/PostService.ts",
+        "/home/dev/www/nest-angular/nest/src/blog/PostController.ts",
         "/home/dev/www/nest-angular/nest/node_modules/@types/node/util.d.ts",
         "/home/dev/www/nest-angular/nest/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/home/dev/www/nest-angular/nest/src/app.module.ts": [
         "/home/dev/www/nest-angular/nest/node_modules/@nestjs/common/index.d.ts",
-        "/home/dev/www/nest-angular/nest/src/app.controller.ts",
-        "/home/dev/www/nest-angular/nest/src/app.service.ts",
+        "/home/dev/www/nest-angular/nest/src/blog/BlogModule.ts",
         "/home/dev/www/nest-angular/nest/node_modules/@types/node/util.d.ts",
         "/home/dev/www/nest-angular/nest/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -4674,8 +4706,17 @@
         "/home/dev/www/nest-angular/nest/node_modules/@types/node/util.d.ts",
         "/home/dev/www/nest-angular/nest/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/dev/www/nest-angular/nest/src/app.controller.ts": [
-        "/home/dev/www/nest-angular/nest/src/app.service.ts"
+      "/home/dev/www/nest-angular/nest/src/blog/mocks/MockedPosts.ts": [
+        "/home/dev/www/nest-angular/nest/src/blog/models/PostModel.ts"
+      ],
+      "/home/dev/www/nest-angular/nest/src/blog/services/PostService.ts": [
+        "/home/dev/www/nest-angular/nest/node_modules/rxjs/index.d.ts",
+        "/home/dev/www/nest-angular/nest/src/blog/models/PostModel.ts"
+      ],
+      "/home/dev/www/nest-angular/nest/src/blog/PostController.ts": [
+        "/home/dev/www/nest-angular/nest/src/blog/services/PostService.ts",
+        "/home/dev/www/nest-angular/nest/node_modules/rxjs/index.d.ts",
+        "/home/dev/www/nest-angular/nest/src/blog/models/PostModel.ts"
       ],
       "/home/dev/www/nest-angular/nest/node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
         "/home/dev/www/nest-angular/nest/node_modules/@nestjs/common/index.d.ts",
@@ -5202,8 +5243,10 @@
       "/home/dev/www/nest-angular/nest/node_modules/@nestjs/common/utils/forward-ref.util.d.ts",
       "/home/dev/www/nest-angular/nest/node_modules/@nestjs/common/utils/index.d.ts",
       "/home/dev/www/nest-angular/nest/node_modules/@nestjs/common/index.d.ts",
-      "/home/dev/www/nest-angular/nest/src/app.service.ts",
-      "/home/dev/www/nest-angular/nest/src/app.controller.ts",
+      "/home/dev/www/nest-angular/nest/src/blog/models/PostModel.ts",
+      "/home/dev/www/nest-angular/nest/src/blog/mocks/MockedPosts.ts",
+      "/home/dev/www/nest-angular/nest/src/blog/services/PostService.ts",
+      "/home/dev/www/nest-angular/nest/src/blog/PostController.ts",
       "/home/dev/www/nest-angular/nest/src/app.module.ts",
       "/home/dev/www/nest-angular/nest/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "/home/dev/www/nest-angular/nest/node_modules/@nestjs/core/adapters/index.d.ts",
@@ -5245,7 +5288,8 @@
       "/home/dev/www/nest-angular/nest/node_modules/@types/jest/index.d.ts",
       "/home/dev/www/nest-angular/nest/node_modules/@types/json5/index.d.ts",
       "/home/dev/www/nest-angular/nest/node_modules/@types/superagent/index.d.ts",
-      "/home/dev/www/nest-angular/nest/node_modules/@types/supertest/index.d.ts"
+      "/home/dev/www/nest-angular/nest/node_modules/@types/supertest/index.d.ts",
+      "/home/dev/www/nest-angular/nest/src/blog/BlogModule.ts"
     ]
   },
   "version": "3.4.3"
